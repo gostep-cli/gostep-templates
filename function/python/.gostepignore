@@ -12,3 +12,4 @@ _pypackages__
 __pycache__
 build
 .gostepignore
+function.json

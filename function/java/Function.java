@@ -6,7 +6,7 @@ import com.google.cloud.functions.HttpResponse;
 import java.io.BufferedWriter;
 import java.io.IOException;
 
-public class HelloWorld implements HttpFunction {
+public class Main implements HttpFunction {
     // Simple function to return "Hello World"
     @Override
     public void service(HttpRequest request, HttpResponse response)

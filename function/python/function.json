@@ -1,16 +1,13 @@
 {
-    "name": "gostep-function",
+    "name": "",
     "description": "Created by GoSTeP",
     "status": "DEPLOY_IN_PROGRESS",
     "entryPoint": "main",
-    "runtime": "pyhton37",
-    "timeout": "300",
+    "runtime": "python37",
+    "timeout": "300s",
     "availableMemoryMb": "128",
-    "serviceAccountEmail": "",
-    "environmentVariables": {
-      "foo": "bar"
-    },
+    "environmentVariables": {},
     "ingressSettings": "ALLOW_ALL",
-    "sourceArchiveUrl": "gs://gostep/python.zip",
+    "sourceArchiveUrl": "",
     "httpsTrigger": {}
   }

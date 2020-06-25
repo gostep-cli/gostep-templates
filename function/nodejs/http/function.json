@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "description": "Created by GoSTeP",
+    "status": "DEPLOY_IN_PROGRESS",
+    "entryPoint": "main",
+    "runtime": "nodejs8",
+    "timeout": "300s",
+    "availableMemoryMb": "128",
+    "environmentVariables": {},
+    "ingressSettings": "ALLOW_ALL",
+    "sourceArchiveUrl": "",
+    "httpsTrigger": {}
+  }

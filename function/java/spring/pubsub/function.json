@@ -2,7 +2,7 @@
   "name": "",
   "description": "Created by GoSTeP",
   "status": "DEPLOY_IN_PROGRESS",
-  "entryPoint": "main",
+  "entryPoint": "org.springframework.cloud.function.adapter.gcp.GcfJarLauncher",
   "runtime": "java11",
   "timeout": "300s",
   "availableMemoryMb": "256",

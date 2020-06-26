@@ -2,7 +2,7 @@
     "name": "",
     "description": "Created by GoSTeP",
     "status": "DEPLOY_IN_PROGRESS",
-    "entryPoint": "Main",
+    "entryPoint": "com.gostep.MainFunction",
     "runtime": "java11",
     "timeout": "300s",
     "availableMemoryMb": "256",

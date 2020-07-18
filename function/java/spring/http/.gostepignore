@@ -6,7 +6,6 @@
 .tar.gz
 .rar
 .log
-target
 .class
 .gostepignore
 function.json

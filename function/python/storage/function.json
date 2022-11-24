@@ -1,7 +1,6 @@
 {
     "name": "",
     "description": "Created by GoSTeP",
-    "status": "DEPLOY_IN_PROGRESS",
     "entryPoint": "main",
     "runtime": "python37",
     "timeout": "300s",
@@ -11,11 +10,6 @@
     "sourceArchiveUrl": "",
     "eventTrigger": {
         "eventType": "providers/cloud.storage/eventTypes/object.change",
-        "resource": "",
-        "failurePolicy": {
-            "retry": {
-                "status": "ACTIVE"
-            }
-        }
+        "resource": ""
     }
 }

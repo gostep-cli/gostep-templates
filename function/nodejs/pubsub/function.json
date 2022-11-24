@@ -1,9 +1,8 @@
 {
   "name": "",
   "description": "Created by GoSTeP",
-  "status": "DEPLOY_IN_PROGRESS",
   "entryPoint": "main",
-  "runtime": "nodejs8",
+  "runtime": "nodejs16",
   "timeout": "300s",
   "availableMemoryMb": "128",
   "environmentVariables": {},
@@ -11,11 +10,6 @@
   "sourceArchiveUrl": "",
   "eventTrigger": {
       "eventType": "providers/cloud.pubsub/eventTypes/topic.publish",
-      "resource": "",
-      "failurePolicy": {
-          "retry": {
-              "status": "ACTIVE"
-          }
-      }
+      "resource": ""
   }
 }

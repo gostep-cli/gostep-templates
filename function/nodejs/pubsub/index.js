@@ -7,7 +7,7 @@
  * @param {object} context The event metadata.
  */
 
-exports.main = (data, context) => {
+export const main = (data, context) => {
     const pubSubMessage = data;
     const pubsubContext = context;
 };

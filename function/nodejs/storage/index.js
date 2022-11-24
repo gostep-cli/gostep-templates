@@ -5,7 +5,7 @@
  * @param {function} callback The callback function.
  */
 
-exports.main = (data, context, callback) => {
+export const main = (data, context, callback) => {
     const file = data;
     callback();
 };

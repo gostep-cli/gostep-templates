@@ -5,7 +5,7 @@
  * @param {!express:Response} res HTTP response context.
  */
 
-exports.main = (req, res) => {
+export const main = (req, res) => {
     let message = req.query.message || req.body.message || 'Hello World!';
     res.status(200).send(message);
 };
